@@ -4,17 +4,18 @@
     <head>
         <title>Easy Apply</title>
         <meta charset="utf-8">
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="{{url_for('static', filename="images/favicon.ico")}}">
         <link href="{{url_for('static', filename="bootstrap/css/bootstrap.css")}}" rel="stylesheet">
         <link href="{{url_for('static', filename="css/flat-ui.css")}}" rel="stylesheet">
         <link href="{{url_for('static', filename="css/easy-apply.css")}}" rel="stylesheet">
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
         <!--[if lt IE 9]>
-        <script src={{url_for('static', filename="js/html5shiv.js")}}></script>
+        <script src="{{url_for('static', filename="js/html5shiv.js")}}" />
         <![endif]-->
     </head>
     <body>
+        <!-- navigation bar -->
         <div class="navbar navbar-inverse navcontainer">
             <div>
                 <ul class="nav navbar-left">
@@ -33,19 +34,69 @@
             </div>
         </div>
         <div class="maincontainer">
-            <h1>Welcome to use Easy Apply</h1>
+            <h4>Recent Events</h4>
+            <div>
+                <div class="event-small">
+                    <div class="event-pic-small">
+                        <img class="event-pic-small"src="{{url_for('static', filename="test-images/test.png")}}" />
+                    </div>
+                    <div class="event-title-small">
+                        <span>Communication of December</span>
+                    </div>
+                </div>
+                <div class="event-small">
+                    <div class="event-pic-small">
+                        <img class="event-pic-small"src="{{url_for('static', filename="test-images/test.png")}}" />
+                    </div>
+                    <div class="event-title-small">
+                        <span>Communication of December</span>
+                    </div>
+                </div>
+                <div class="event-small">
+                    <div class="event-pic-small">
+                        <img class="event-pic-small"src="{{url_for('static', filename="test-images/test.png")}}" />
+                    </div>
+                    <div class="event-title-small">
+                        <span>Communication of December</span>
+                    </div>
+                </div>
+                <div class="event-small">
+                    <div class="event-pic-small">
+                        <img class="event-pic-small"src="{{url_for('static', filename="test-images/test.png")}}" />
+                    </div>
+                    <div class="event-title-small">
+                        <span>Communication of December</span>
+                    </div>
+                </div>
+                <div class="event-small">
+                    <div class="event-pic-small">
+                        <img class="event-pic-small"src="{{url_for('static', filename="test-images/test.png")}}" />
+                    </div>
+                    <div class="event-title-small">
+                        <span>Communication of December</span>
+                    </div>
+                </div>
+                <div class="event-small">
+                    <div class="event-pic-small">
+                        <img class="event-pic-small"src="{{url_for('static', filename="test-images/test.png")}}" />
+                    </div>
+                    <div class="event-title-small">
+                        <span>Communication of December</span>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Load JS here for greater good =============================-->
-        <script src={{url_for('static', filename="js/jquery-1.8.3.min.js")}}></script>
-        <script src={{url_for('static', filename="js/jquery-ui-1.10.3.custom.min.js")}}></script>
-        <script src={{url_for('static', filename="js/jquery.ui.touch-punch.min.js")}}></script>
-        <script src={{url_for('static', filename="js/bootstrap.min.js")}}></script>
-        <script src={{url_for('static', filename="js/bootstrap-select.js")}}></script>
-        <script src={{url_for('static', filename="js/bootstrap-switch.js")}}></script>
-        <script src={{url_for('static', filename="js/flatui-checkbox.js")}}></script>
-        <script src={{url_for('static', filename="js/flatui-radio.js")}}></script>
-        <script src={{url_for('static', filename="js/jquery.tagsinput.js")}}></script>
-        <script src={{url_for('static', filename="js/jquery.placeholder.js")}}></script>
+        <script src="{{url_for('static', filename="js/jquery-1.8.3.min.js")}}" ></script>
+        <script src="{{url_for('static', filename="js/jquery-ui-1.10.3.custom.min.js")}}" ></script>
+        <script src="{{url_for('static', filename="js/jquery.ui.touch-punch.min.js")}}" ></script>
+        <script src="{{url_for('static', filename="js/bootstrap.min.js")}}" ></script>
+        <script src="{{url_for('static', filename="js/bootstrap-select.js")}}" ></script>
+        <script src="{{url_for('static', filename="js/bootstrap-switch.js")}}" ></script>
+        <script src="{{url_for('static', filename="js/flatui-checkbox.js")}}" ></script>
+        <script src="{{url_for('static', filename="js/flatui-radio.js")}}" ></script>
+        <script src="{{url_for('static', filename="js/jquery.tagsinput.js")}}" ></script>
+        <script src="{{url_for('static', filename="js/jquery.placeholder.js")}}" ></script>
     </body>
 </html>

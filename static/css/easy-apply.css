@@ -1,13 +1,42 @@
-.maincontainer {
+div.maincontainer {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 50px;
-	width: 900px; 
+	width: 870px; 
 }
 
-.navcontainer{
-	margin-left: 80px;
-	margin-right: 80px;
+div.navcontainer{
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 20px;
+	width: 900px;
+}
+
+div.event-small{
+	border-style: double;
+	border-width: 2px;
+	border-radius: 8px;
+	border-color: #2980B9;
+	width: 200px;
+	margin: 8px;
+	float: left;
+
+}
+
+div.event-pic-small{
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+}
+
+img.event-pic-small{
+	margin: 3px;
+	width: 150px;
+	height: 200px;
+	display: block;
+}
+
+div.event-title-small{
+	margin-right: 15px;
+	margin-left: 15px;
 }
 
