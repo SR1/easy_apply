@@ -40,3 +40,25 @@ div.event-title-small{
 	margin-left: 15px;
 }
 
+div.event-detail-basic{
+	display: block;
+}
+
+img.event-detail-image{
+	width: 210px;
+	height: 280px;
+	padding: 10px;
+	float: left;
+}
+
+div.event-detail-info{
+	height: 280px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	overflow: hidden;
+	display: block;
+}
+
+div.event-detail-detail-text{
+}
