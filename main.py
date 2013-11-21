@@ -9,5 +9,9 @@ def index():
 def detail():
     return render_template('detail.html')
 
+@app.route("/apply")
+def apply():
+    return render_template('apply.html')
+
 if __name__=="__main__":
     app.run(debug=True)
