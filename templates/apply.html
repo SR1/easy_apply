@@ -21,53 +21,41 @@
                     <li><a>Easy Apply</a></li>
                 </ul>
                 <ul class="nav navbar-right">
-                    <li><a>Sign Up</a></li>
-                    <li><a>Sign In</a></li>
-                    <li><a>My Account</a>
+                    <li><a>注册</a></li>
+                    <li><a>登录</a></li>
+                    <li><a>我的帐号</a>
                         <ul>
                             <li><a>SR1</a></li>
-                            <li><a>Sign Out</a></li>
+                            <li><a>退出</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="maincontainer">
-            <h3>Apply for Communication of December</h3>
+            <h3>报名参加：技术联盟12月技术交流会</h3>
             <hr />
-            <h4>You are asked to enter the following information</h4>
-            <label>Name: 
-                <input type="text" class="form-control" placeholder="Your name..." />
-            </label>
-            <label>Phone number: 
-                <input type="text" class="form-control" placeholder="You phone number..." />
-            </label>
-            <label>Phone number(Short) *Option: 
-                <input type="text" class="form-control" placeholder="You short phone number..." />
-            </label>
-            <label>Gender: 
-                <input type="text" class="form-control" placeholder="You short phone number..." />
-            </label>
-            <label class="radio">
-                <input type="radio" name="gender" value="0" data-toggle="radio">
-                Man
-            </label>
-            <label class="radio">
-                <input type="radio" name="gender" value="1" data-toggle="radio">
-                Felman
-            </label>
-            <label>Introduce of yourself 
-                <textarea type="text" class="form-control" placeholder="Introduce of yourself" /></textarea>
-            </label>
-            <h4>If you want to share something to us...</h4>
-            <label>Topic: 
-                <input type="text" class="form-control" placeholder="Your Topic..." />
-            </label>
-            <label>Summary 
-                <textarea type="text" class="form-control" placeholder="Summary" /></textarea>
-            </label>
-            <button class="btn btn-primary btn-wide">Apply</button>
-            <button class="btn btn-danger btn-wide">Reset</button>
+            <form>
+                <h4>请填写以下信息完成报名</h4>
+                <div class="apply-item-group">
+                    <div class="apply-item-left">
+                        <label>姓名:</label>
+                    </div>
+                    <div class="apply-item-right">
+                        <input type="text" placeholder="张三" class="form-control" />
+                    </div>
+                </div>
+                <div class="apply-item-group">
+                    <label class="col-sm-1 control-label">手机号(长):</label>
+                    <div class="col-sm-3">
+                        <input type="text" placeholder="Your Phone number.." class="form-control" />
+                    </div>
+                </div>
+                <div class="apply-item-group">
+                    <button class="btn btn-primary btn-wide">确认报名</button>
+                    <button class="btn btn-danger btn-wide">重写表单</button>
+                </div>
+            </form>
         </div>
         <footer>
             Copyright @League fo Tech

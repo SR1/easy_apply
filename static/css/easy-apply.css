@@ -65,3 +65,23 @@ div.event-detail-info{
 
 div.event-detail-detail-text{
 }
+
+div.apply-item-group{
+	width: 100%;
+	display: block;
+}
+
+div.apply-item-left{
+	text-align: right;
+	width: 20%;
+	padding-right: 10px;
+	float: left;
+	display: block;
+}
+
+div.apply-item-right{
+	width: 80%;
+	padding-left: 10px;
+	float: left;
+	display: block;
+}
